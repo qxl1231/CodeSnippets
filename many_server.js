@@ -19,7 +19,7 @@ app.httpsOptions = httpsOptions;
 
 app.logger = require('./lib/logger');
 
-var whitelist = ["http://ec.midea.com", "http://120.55.105.8", "http://zhinengxiyifang.cn", "http://w.littleswan.com", "http://wx.beesui.space"];
+var whitelist = ["http://www.baidu.com", "http://www.baidu.com", "http://www.baidu.com", "http://www.baidu.com", "http://www.baidu.com"];
 var corsOptions = {
   origin: function(origin, callback){
     var originIsWhitelisted = whitelist.indexOf(origin) !== -1;
